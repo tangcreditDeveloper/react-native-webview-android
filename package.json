@@ -11,10 +11,31 @@
         "type": "range"
       },
       "/Users/iniha/Desktop/HinongBao"
+    ],
+    [
+      {
+        "raw": "react-native-webview-android@git+https://github.com/tangcreditDeveloper/react-native-webview-android.git",
+        "scope": null,
+        "escapedName": "react-native-webview-android",
+        "name": "react-native-webview-android",
+        "rawSpec": "git+https://github.com/tangcreditDeveloper/react-native-webview-android.git",
+        "spec": "git+https://github.com/tangcreditDeveloper/react-native-webview-android.git",
+        "type": "hosted",
+        "hosted": {
+          "type": "github",
+          "ssh": "git@github.com:tangcreditDeveloper/react-native-webview-android.git",
+          "sshUrl": "git+ssh://git@github.com/tangcreditDeveloper/react-native-webview-android.git",
+          "httpsUrl": "git+https://github.com/tangcreditDeveloper/react-native-webview-android.git",
+          "gitUrl": "git://github.com/tangcreditDeveloper/react-native-webview-android.git",
+          "shortcut": "github:tangcreditDeveloper/react-native-webview-android",
+          "directUrl": "https://raw.githubusercontent.com/tangcreditDeveloper/react-native-webview-android/master/package.json"
+        }
+      },
+      "/Users/iniha/Desktop/HinongBao"
     ]
   ],
   "_cnpm_publish_time": 1507509389309,
-  "_from": "react-native-webview-android@>=1.1.10 <2.0.0",
+  "_from": "git+https://github.com/tangcreditDeveloper/react-native-webview-android.git",
   "_hasShrinkwrap": false,
   "_id": "react-native-webview-android@1.1.12",
   "_inCache": true,
@@ -31,22 +52,30 @@
   "_npmVersion": "5.3.0",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "react-native-webview-android@^1.1.10",
+    "raw": "react-native-webview-android@git+https://github.com/tangcreditDeveloper/react-native-webview-android.git",
     "scope": null,
     "escapedName": "react-native-webview-android",
     "name": "react-native-webview-android",
-    "rawSpec": "^1.1.10",
-    "spec": ">=1.1.10 <2.0.0",
-    "type": "range"
+    "rawSpec": "git+https://github.com/tangcreditDeveloper/react-native-webview-android.git",
+    "spec": "git+https://github.com/tangcreditDeveloper/react-native-webview-android.git",
+    "type": "hosted",
+    "hosted": {
+      "type": "github",
+      "ssh": "git@github.com:tangcreditDeveloper/react-native-webview-android.git",
+      "sshUrl": "git+ssh://git@github.com/tangcreditDeveloper/react-native-webview-android.git",
+      "httpsUrl": "git+https://github.com/tangcreditDeveloper/react-native-webview-android.git",
+      "gitUrl": "git://github.com/tangcreditDeveloper/react-native-webview-android.git",
+      "shortcut": "github:tangcreditDeveloper/react-native-webview-android",
+      "directUrl": "https://raw.githubusercontent.com/tangcreditDeveloper/react-native-webview-android/master/package.json"
+    }
   },
   "_requiredBy": [
-    "#USER",
     "/"
   ],
-  "_resolved": "https://registry.npm.taobao.org/react-native-webview-android/download/react-native-webview-android-1.1.12.tgz",
-  "_shasum": "86c7f218e349cd5f1738dae093de3a015cdbb2b4",
+  "_resolved": "git+https://github.com/tangcreditDeveloper/react-native-webview-android.git#a5d2f5176b291727f8cba7070ecbb670b30ae842",
+  "_shasum": "2ca2f45bf70dcf47e86fb401e8e214d5aa61502a",
   "_shrinkwrap": null,
-  "_spec": "react-native-webview-android@^1.1.10",
+  "_spec": "react-native-webview-android@git+https://github.com/tangcreditDeveloper/react-native-webview-android.git",
   "_where": "/Users/iniha/Desktop/HinongBao",
   "author": {
     "name": "Lucas Ferreira",

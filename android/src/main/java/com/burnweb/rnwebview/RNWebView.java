@@ -39,11 +39,16 @@ class RNWebView extends WebView implements LifecycleEventListener {
 
     protected class EventWebClient extends WebViewClient {
         public boolean shouldOverrideUrlLoading(WebView view, String url){
+
+            if (url.contains("hnbcode=")){
+                WritableMap writableMapP = new WritableNativeMap();
+                writableMapP.putString("HiNongbo_URL", url.toString());
+                sendTransMisson(mContext, "HinongBao_Android_url", writableMapP);
+                return true;
+            }
+
             view.loadUrl(url);
             Log.e("URL",url.toString());
-            WritableMap writableMapP = new WritableNativeMap();
-            writableMapP.putString("HiNongbo_URL", url.toString());
-            sendTransMisson(mContext, "HinongBao_Android_url", writableMapP);
             if(RNWebView.this.getAllowUrlRedirect()) {
                 // do your handling codes here, which url is the requested url
                 // probably you need to open that url rather than redirect:
