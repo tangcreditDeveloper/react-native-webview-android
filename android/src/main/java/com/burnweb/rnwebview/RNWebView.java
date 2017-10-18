@@ -40,7 +40,7 @@ class RNWebView extends WebView implements LifecycleEventListener {
     protected class EventWebClient extends WebViewClient {
         public boolean shouldOverrideUrlLoading(WebView view, String url){
 
-            if (url.contains("hnbcode=")){
+            if (url.contains("hnbcode")){
                 WritableMap writableMapP = new WritableNativeMap();
                 writableMapP.putString("HiNongbo_URL", url.toString());
                 sendTransMisson(mContext, "HinongBao_Android_url", writableMapP);
