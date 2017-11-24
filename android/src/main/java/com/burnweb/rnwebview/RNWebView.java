@@ -38,6 +38,11 @@ class RNWebView extends WebView implements LifecycleEventListener {
     private boolean allowUrlRedirect = false;
 
     protected class EventWebClient extends WebViewClient {
+         @Override
+        public void onReceivedSslError(WebView view, SslErrorHandler handler, SslError error) {
+
+            handler.proceed();
+        }
         public boolean shouldOverrideUrlLoading(WebView view, String url){
 
             if (url.contains("hnbcode")){
